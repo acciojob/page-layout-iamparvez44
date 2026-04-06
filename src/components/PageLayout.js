@@ -5,7 +5,7 @@ let PageLayout = (props) => {
     <>
       <h1>{props.header}</h1>
        <p>{props.p}</p>
-       <p>{props.footer}</p>
+       <footer>{props.footer}</footer>
     </>
   );
 };
