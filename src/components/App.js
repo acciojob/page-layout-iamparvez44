@@ -6,7 +6,7 @@ const App = () => {
   return (
     <div>
       <PageLayout
-        header="Welcome to My Website"
+        header="Welcome to My website"
         p="This is the content of my wesite."
         footer="&copy; 2023 My Website. All rights reserved."
       />
