@@ -1,11 +1,11 @@
 import React from "react";
 
-let PageLayout = (props) => {
+let PageLayout = ({ header, p, footer }) => {
   return (
     <>
-      <h1>{props.header}</h1>
-       <p>{props.p}</p>
-       <footer>{props.footer}</footer>
+      <h1>{header}</h1>
+      <p>{p}</p>
+      <footer>{footer}</footer>
     </>
   );
 };
